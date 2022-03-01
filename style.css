@@ -1,0 +1,135 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+}
+
+body {
+  background-color: #212529;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tablero {
+  min-width: 300px;
+  border-radius: 15px;
+  padding-top: 20px;
+  margin: auto;
+  width: 20%;
+  height: 70vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.caja {
+  width: 5em;
+  height: 5em;
+  background-color: #ced4da;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(114, 113, 113, 0.25) 0px 14px 28px, rgba(82, 82, 82, 0.22) 0px 10px 10px;
+          box-shadow: rgba(114, 113, 113, 0.25) 0px 14px 28px, rgba(82, 82, 82, 0.22) 0px 10px 10px;
+}
+
+.caja-inside {
+  width: 90%;
+  height: 90%;
+  background-color: #8d99ae;
+  margin: auto;
+  position: relative;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.imgs {
+  height: 100%;
+  visibility: hidden;
+  position: absolute;
+}
+
+.imgs-1 {
+  height: 100%;
+  visibility: hidden;
+  position: absolute;
+}
+
+#result {
+  border-radius: 20px;
+  width: 20em;
+  height: 70vh;
+  background-color: #32373d;
+  opacity: 100%;
+  position: fixed;
+  display: none;
+  padding: 2em;
+}
+
+#winner {
+  width: 20em;
+  height: 50vh;
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#img_winner {
+  height: 100px;
+}
+
+#whowins {
+  width: 2em;
+  background-color: #ced4da;
+  margin: 10px;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(114, 113, 113, 0.25) 0px 14px 28px, rgba(82, 82, 82, 0.22) 0px 10px 10px;
+          box-shadow: rgba(114, 113, 113, 0.25) 0px 14px 28px, rgba(82, 82, 82, 0.22) 0px 10px 10px;
+  font-size: 60px;
+  position: relative;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+#tag {
+  padding: 5px;
+  margin: 5px;
+  position: fixed;
+  font-size: 5rem;
+  color: #ced4da;
+  font-family: 'Indie Flower', cursive;
+}
+
+button {
+  position: relative;
+  width: 50%;
+  height: 3em;
+  left: 80px;
+  border-radius: 20px;
+  background-color: #32373d;
+  color: #ced4da;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+/*# sourceMappingURL=style.css.map */
